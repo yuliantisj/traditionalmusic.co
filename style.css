@@ -1,0 +1,406 @@
+*{
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	font-size: 18px;
+}
+html{
+	box-sizing: border-box;	
+}
+
+body{
+	position: relative;
+}
+
+.font-color{
+	color: white;
+}
+
+@keyframes animate{
+	from {top: 0px;}
+	to {top: 20px;}
+}
+
+/*Halaman Utama, jateng, jabar, jatim*/
+.banner{
+	position: relative;
+
+}
+.font-banner{
+	position: absolute;
+	width: 1267px;
+	height: 132px;
+	left: 99px;
+	top: 203px;
+}
+.font-banner p{
+	font-family: 'DM Serif Display';
+	font-size: 96px;
+	line-height: 132px;
+	text-align: center;
+	color: #7C4202;
+	font-weight: 400px;
+	position: relative;
+	animation-name: animate;
+	animation-duration: 3s;
+	animation-fill-mode: backwards;
+}
+
+.content{
+	height: 900px;
+	background-color: #F2E8C4;
+}
+
+/*.button-cont{
+	margin-top: 100px;
+}
+*/
+.button-list{
+	display: inline;
+	padding: 15px;
+	background-color: #C47556;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-top: 100px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.button-list a
+{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover
+{
+	font-weight: bold;
+}
+
+iframe{
+	overflow: hidden;
+}
+
+.cardd{
+	position: relative;
+	animation-name: animate;
+	animation-duration: 3s;
+	animation-fill-mode: backwards;
+}
+
+.card-list-ni{
+	width: 200px;
+	height: 270px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin: 40px 40px 0px 40px;
+}
+
+.card-img{
+	margin-top: 10px;
+	width: 100%;
+
+}
+
+.card-img img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.card-button{
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #C47556;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.card-button a{
+	color: white;
+	text-decoration: none;
+}
+
+.footer{
+	height: 300px;
+	width: 100%;
+	background-color: #3B6362;
+	padding-top: 50px;
+}
+
+.footer p{
+	color: white;
+}
+
+.sosmed-icon{
+	float: left;
+}
+
+.sosmed{
+	float: right;
+	margin-left: -50px;
+}
+
+
+/*Angklung*/
+.nav-color{
+	background-color: #B5C5BB;
+}
+
+.icon{
+	position: absolute;
+}
+
+.icon svg{
+	top: 500px;
+	left: 1000px;
+	z-index: 2;
+}
+
+.cari{
+	margin-top: 150px;
+	width: 800px;
+	border-radius: 10px;
+	border: solid 0px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cont-img-card{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.cont-img-card p{
+	font-weight: 700;
+	color: #7C4202;
+	font-size: 24px;
+
+}
+
+.detail-card{
+	width: 300px;
+	height: 200px;
+	background-color: white;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.detail-card-img{
+	margin: auto;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.detail-card-img img{
+	width: 100%;
+}
+
+.button-detail{
+	margin-left: 100px;
+}
+
+.button-detail-list{
+	display: inline;
+	padding: 10px;
+	background-color: #C47556;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-top: 100px;
+	text-align: center;
+	margin-bottom: 50px;
+	width: 180px;
+}
+
+.button-detail-list a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+
+.detail-frame{
+	margin: auto;
+}
+
+.sej-angklung{
+	margin-top: -55px;
+	width: 1200px;
+	margin-left: 90px;
+
+}
+
+.sejarah-angklung{
+	background-color: white;
+	padding: 30px;
+	border: solid 1px #AA6933;
+	border-radius: 20px;
+}
+
+.content-banyak{
+	position: relative;
+	height: 1350px;
+	background-color: #F2E8C4;
+}
+
+.card-txt{
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: -20px;
+}
+
+.card-txt p{
+	font-weight: 700;
+	color: #7C4202;
+	font-size: 24px;
+}
+
+.brand{
+	font-weight: bold;
+	color: white;
+}
+
+.text-cont{
+	text-align: justify;
+}
+
+/*About*/
+.about{
+	text-align: center;
+	padding-top: 120px;
+}
+
+.about h1{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.txt-card{
+	margin-top: 50px;
+	margin-left: 200px;
+}
+
+.text-content{
+	width: 80%;
+	text-align: justify;
+}
+
+.color{
+	background-color: #C5BFA5;
+	border-radius: 15px;
+}
+
+.content-medium{
+	height: 1000px;
+	background-color: #F2E8C4;
+}
+
+.jobdesk{
+	margin-top: 25px;
+	text-align: center;
+}
+
+.jobdesk p{
+	color: #6A261B;
+}
+
+/*Contact*/
+.contact-list{
+	width: 300px;
+	height: 230px;
+	background-color: white;
+	border: 2px solid #7C4202;
+	border-radius: 15px;
+	text-align: center;
+	padding: 20px;
+	margin: 30px 65px 50px 65px;
+}
+.title-contact p{
+	font-weight: bold;
+}
+.contact-icon svg{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.message{
+	width: 730px;
+	height: 300px;
+	background-color: white;
+	border: 2px solid #7C4202;
+	border-radius: 15px;
+	padding: 30px;
+	margin: auto;
+}
+.message-title{
+	font-weight: bold;
+	margin-left: 25px;
+}
+.form-kiri{
+	width: 50%;
+}
+.form-kiri input{
+	padding: 5px;
+	margin-bottom: 15px;
+	border: 2px solid #7C4028;
+	border-radius: 5px;
+}
+::placeholder{
+	font-size: 14px;
+	color: #C47556;
+}
+.form-kanan{
+	width: 50%;
+}
+.form-kanan textarea{
+	width: 100%;
+	height: 120px;
+	color: #C47556;
+	padding: 10px;
+	font-size: 14px;
+	border: 2px solid #7C4028;
+	border-radius: 10px;
+}
+.form-kanan button{
+	color: white;
+	background-color: #C47556;
+	border: 1px solid #C47556;
+	border-radius: 5px;
+	font-size: 14px;
+	float: right;
+}
+.text-center{
+	text-align: center;
+	width: 80%;
+	margin-top: -40px;
+}
+
+/*FAQ*/
+.card-questions{
+	margin-top: 50px;
+}
+.questions-list{
+	margin-bottom: 20px;
+	width: 80%;
+	background-color: white;
+	border: 2px solid #7C4028;
+	border-radius: 10px;
+}
+.card-answer
+{
+	width: 80%;
+	background-color: white;
+	border: 2px solid #7C4028;
+	border-radius: 10px;	
+}
+
+.sosmed-foot{
+	display: inline;
+	margin-left: 5px;
+	color: white;
+}
+
+.sosmed-grup{
+	margin-bottom: 10px;
+}
+
+button:hover{
+	font-weight: bold;
+}
